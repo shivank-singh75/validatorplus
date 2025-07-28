@@ -1,0 +1,29 @@
+{
+  "name": "validatorplus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "validator",
+    "backend",
+    "validation",
+    "typescript"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "peerDependencies": {
+    "@prisma/client": "*",
+    "sequelize": "*"
+  },
+  "author": "Shivank Singh"
+}
